@@ -3,7 +3,7 @@ export default function Contact() {
     <div>
       <h1>Contact Page</h1>
       <p>
-        CONTACT FORM will got here
+       CONTACT FORM
       </p>
     </div>
   );
