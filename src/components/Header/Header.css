@@ -7,10 +7,36 @@
     --fuscia: #961035;
    }
 
-.header {
+header {
     background-color: var(--dark-green);
+    color: var(--dark-pink);
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: var(--light-green);
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-link {
+    background-color: var(--fuscia);
     color: var(--light-pink);
-    height: 100px;
-    text-align: center;
-    padding: 20px 0;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--light-pink);
+    color: var(--fuscia);
+}
+
+.nav {
+    background-color: var(--light-green);
 }

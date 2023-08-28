@@ -1,0 +1,30 @@
+/* color-chart */
+:root {
+    --dark-green: #475733;
+    --light-green: #81865e;
+    --light-pink: #f0d0c1;
+    --dark-pink: #f49b95;
+    --fuscia: #961035;
+   }
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid var(--light-green);
+  background: var(--dark-green);
+}
+
+footer ul li {
+  display: inline;
+  font-size: 2rem;
+  padding: 1rem;
+  color: var(--dark-pink);
+}
+
+footer ul li:hover {
+  color: var(--light-green);
+}

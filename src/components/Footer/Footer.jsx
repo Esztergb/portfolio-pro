@@ -1,10 +1,11 @@
 // import React from "react";
-import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import './Footer.css';
 
 function Footer() {
   return (
-    <div className="footer-div">
-      <footer>
+    
+      <footer className="footer">
         <ul>
           <a href="https://github.com/Esztergb" target="blank">
             <li>
@@ -18,7 +19,7 @@ function Footer() {
           </a>
          </ul>
       </footer>
-    </div>
+
   );
 }
 
