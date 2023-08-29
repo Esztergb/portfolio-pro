@@ -1,4 +1,5 @@
-import Portrait from "../../images/profile.jpeg";
+import Portrait from "../../../images/profile.jpeg";
+import './About.css'
 // import { Link } from "react-router-dom";
 export default function About() {
   return (

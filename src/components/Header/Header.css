@@ -37,6 +37,9 @@ header {
     color: var(--fuscia);
 }
 
+
+
 .nav {
     background-color: var(--light-green);
+   --bs-nav-link-hover-color: var(--light-green);
 }

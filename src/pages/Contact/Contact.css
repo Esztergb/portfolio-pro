@@ -1,0 +1,13 @@
+:root {
+    /* --blue: #b1c5c3; */
+    --dark-green: #475733;
+    --light-green: #81865e;
+    --light-pink: #f0d0c1;
+    --dark-pink: #f49b95;
+    --fuscia: #961035;
+   }
+
+
+.main {
+    background-color: var(--light-pink);
+}
